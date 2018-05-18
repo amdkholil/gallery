@@ -11,6 +11,9 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
     background-size: 300px;
     background-repeat: no-repeat;
+    background-color: rgb(39, 40, 38);
+    border-radius: 5px;
+
 }
 
 .tz-gallery .thumbnail:hover {
@@ -18,18 +21,12 @@
 }
 
 
-.tz-gallery img {
-    border-radius: 4px 4px 0 0;
-    height: 150hv;
-    position: absolute;
-    left: -10px;
-    top: -86px
-}
 
 .tz-gallery .caption{
     padding: 26px 30px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 0 0 5px 5px;
 }
 
 .tz-gallery h3 {
@@ -39,7 +36,8 @@
     padding-top: 10px;
     padding-bottom: 15px;
     margin-bottom: 0;
-    background-color: rgba(0,0,0, 0.7);
+    background-color: rgba(0,0,0, 0.8);
+    border-radius: 5px 5px 0 0;
 }
 
 .tz-gallery .caption p {
